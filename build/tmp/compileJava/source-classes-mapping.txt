@@ -1,0 +1,4 @@
+fr/sdds/bot/Listener.java
+ fr.sdds.bot.Listener
+fr/sdds/bot/Main.java
+ fr.sdds.bot.Main

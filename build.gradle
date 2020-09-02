@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'fr.sdds'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'net.dv8tion', name: 'JDA', version: '4.0.0_44'
+    compile group: 'com.jagrosh', name: 'jda-utilities', version: '3.0.1'
+    compile group: 'me.duncte123', name: 'botCommons', version: '1.0.45'
+
+}
