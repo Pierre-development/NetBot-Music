@@ -25,7 +25,7 @@ compileJava {
 
 jar{
     manifest{
-        attributes 'Main-Class': 'fr.sdds.launcherjfx.Main'
+        attributes 'Main-Class': 'fr.sdds.not.Main'
     }
     from {
         configurations.compile.collect {
