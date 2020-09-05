@@ -1,5 +1,6 @@
 package fr.sdds.bot;
 
+import net.dv8tion.jda.api.entities.Member;
 import net.dv8tion.jda.api.entities.User;
 import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
@@ -12,7 +13,15 @@ public class Listener extends ListenerAdapter {
 
     @Override
     public void onGuildMessageReceived(@Nonnull GuildMessageReceivedEvent event) {
+
+
+
         User user = event.getAuthor();
+
+        Member member = event.getMember();
+
+
+            event.getChannel().sendMessage("est Bg");
 
         if (user.isBot() || event.isWebhookMessage()) {
             return;

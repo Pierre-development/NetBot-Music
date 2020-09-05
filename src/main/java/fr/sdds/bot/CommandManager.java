@@ -1,8 +1,6 @@
 package fr.sdds.bot;
 
-import fr.sdds.bot.commands.CommandContext;
-import fr.sdds.bot.commands.ICommand;
-import fr.sdds.bot.commands.Ping;
+import fr.sdds.bot.commands.*;
 import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent;
 import org.jetbrains.annotations.Nullable;
 
@@ -17,7 +15,12 @@ public class CommandManager {
 
     public CommandManager() {
         addCommand(new Ping());
+        addCommand(new Help());
+        addCommand(new BG());
     }
+
+
+
 
     private void addCommand(ICommand cmd) {
         boolean nameFound = this.commands.stream().anyMatch((it) -> it.getName().equalsIgnoreCase(cmd.getName()));
