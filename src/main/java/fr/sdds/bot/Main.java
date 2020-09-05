@@ -12,7 +12,7 @@ public class Main {
     public Main() throws LoginException {
         JDABuilder jdaBuilder = new JDABuilder();
         jdaBuilder.setToken("NzUwNzA4MDQ2NTcyODE0Mzk4.X0-dWQ.4GR8_Ima_usP24bx4mzSs_vTuZg");
-        jdaBuilder.setActivity(Activity.listening("de la musique sur NetHeberg"));
+        jdaBuilder.setActivity(Activity.listening("nm!"));
         jdaBuilder.addEventListeners(new Listener());
         jdaBuilder.build();
     }

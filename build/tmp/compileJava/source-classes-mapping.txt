@@ -1,4 +1,14 @@
-fr/sdds/bot/Listener.java
- fr.sdds.bot.Listener
+fr/sdds/bot/commands/ICommand.java
+ fr.sdds.bot.commands.ICommand
 fr/sdds/bot/Main.java
  fr.sdds.bot.Main
+fr/sdds/bot/commands/CommandContext.java
+ fr.sdds.bot.commands.CommandContext
+fr/sdds/bot/CommandManager.java
+ fr.sdds.bot.CommandManager
+fr/sdds/bot/Config.java
+ fr.sdds.bot.Config
+fr/sdds/bot/Listener.java
+ fr.sdds.bot.Listener
+fr/sdds/bot/commands/Ping.java
+ fr.sdds.bot.commands.Ping
